@@ -5,3 +5,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_nashc.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_nashc-cp2a-user \
+    lineage_nashc-cp2a-userdebug \
+    lineage_nashc-cp2a-eng
